@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* área de variáveis */
+:root {
+    --color-light: #fff;
+    --color-dark: rgb(58, 4, 71);
+    --color-primary: #dc143c;
+    --color-secundary: blue;
+}
+/* fim area de variaveis */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    max-height: 100vh;
+}
+
+.header-page {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--color-dark);
+}
+
+.header-title {
+    font-size: 2rem;
+    color: var(--color-light);
+}
+
+.header-title i {
+    font-size: 2.5rem;
+}
+
+.header-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-menu li {
+    margin: 0 1.5rem;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: var(--color-light);
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 100%;
+    max-height: 100vh;  
+    flex-direction: column;
+}
+
+.first-title {
+    border: var(--color-primary) solid 5rem;
+    margin: 10rem;
+    margin-bottom: 3rem;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    font-size: 5rem;
+}
+
+.description {
+    margin: 0 10rem 3rem 10rem;
+    font-size: 2rem;
+}
+
+.btn {
+    color: var(--color-light);
+    text-decoration: none;
+    border: .3rem solid var(--color-primary);
+    background-color: var(--color-primary);
+    padding: .6rem 2.5rem;
+    border-radius: .7rem;
+    margin: 10rem;
+}
+
+
+.bottom-page {
+    margin: 3rem 10rem 0 10rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    border: .1rem solid gray;
+    width: 20%;
+    padding: 2rem;
+}
+
+.gallery-item img {
+    width: 100%;
+}
+
+.figtitle {
+    font-weight: 800;
+}
+
+.btn2 {
+    color: var(--color-light);
+    text-decoration: none;
+    border: .3rem solid var(--color-secundary);
+    background-color: var(--color-secundary);
+    padding: 0 2.5rem;
+    border-radius: .7rem;
+}

@@ -1,0 +1,33 @@
+:root {
+    --purple: #5E3465;
+    --light: #fff;
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+.btn-outline-purple {
+    --bs-btn-color: var(--purple);;
+    --bs-btn-border-color: var(--purple);;
+    --bs-btn-hover-color: var(--light);
+    --bs-btn-hover-bg: var(--purple);;
+    --bs-btn-hover-border-color: var(--purple);;
+    --bs-btn-focus-shadow-rgb: 186, 104, 200;
+    --bs-btn-active-color: var(--light);
+    --bs-btn-active-bg: var(--purple);;
+    --bs-btn-active-border-color: var(--purple);;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--purple);;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--purple);;
+    --bs-gradient: none;
+}
+
+.line {
+    width: 250px;
+    height: 5px;
+    background-color: var(--purple);
+    margin: 10px auto;
+    border-radius: 5px;
+}
