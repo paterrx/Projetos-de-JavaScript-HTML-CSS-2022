@@ -1,0 +1,13 @@
+/* Regra CSS = Formatação
+seletor = quem eu quero formatar (TAG) 
+propriedade = o que eu quero formatar no seletor
+valor = como irá ficar
+
+seletor {
+    propriedade: valor;
+} */
+h1 {
+    font-size: 50px;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

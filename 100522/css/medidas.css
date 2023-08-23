@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+.container {
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid black;
+    /* font-size: 10px; */
+}
+
+.box {
+    padding: 10px;
+    margin: 10px;
+    /* font-size: 10px; */
+}
+
+.box p {
+    color: #900;
+    font-size: 3rem;
+}
+
+a {
+    font-size: 3rem;
+}
